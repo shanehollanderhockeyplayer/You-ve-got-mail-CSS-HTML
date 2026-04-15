@@ -1,0 +1,25 @@
+To change the visual of the postcard, in your CSS:
+Go to the "#workskin .postcard_front" section, and change the url in the "background-image:" line to the picture of your choice.
+
+To change the visual of the stamp, in your CSS:
+Go to the "#workskin .postcard_stamp_content" section, and change the url in the "background-image:" line to the picture of your choice.
+
+You could also make it look like characters have drawn something inside the card. For that, you need to have your drawing ready (with the background color of your card, and easier if the size already matches the one of the postcard) and, in your CSS:
+Go to the "#workskin .postcard_back" section, and change the "background: #F5F5F2;" to "background-image: url("INSERT YOUR PICTURE URL HERE");"
+
+
+To keep in mind: there’s very limited text space on the postcard, and it appears differently between mobile and desktop, so you might want to check your draft to make sure your text always fits within the card.
+
+As a simple little HTML reminder, <p> your text </p> will create a paragraph, with some space between your sentence and the line that comes after.
+So something like "<p>Hello,</p> <p>How are you?</p>" will give you:
+Hello,
+
+How are you?
+
+
+For the small space you have on the card, you might want to avoid that. Rather than that you can use <br>, which will simply make your next sentence go below, without any extra space. 
+Something like "<p>Hello, <br> How are you?</p>" will give you:
+Hello,
+How are you?
+
+Makes it easier to have a little more text!
