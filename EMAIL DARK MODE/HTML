@@ -1,0 +1,9 @@
+<div class="window">
+<p class="topbar_dark">&nbsp;</p>
+<p class="textfield_dark">From: [email here]</p>
+<p class="textfield_dark">Subject: [Subject line]</p>
+<p class="textfield_dark">To: [email here]</p></div>
+<div class="ebody_dark"><p>Email here.</p><p>Sincerely,</p>
+<p>- John Doe</p>
+</div>
+<p class="buttonbar_dark">&nbsp;</p>
