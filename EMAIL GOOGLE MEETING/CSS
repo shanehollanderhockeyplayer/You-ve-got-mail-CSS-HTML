@@ -1,0 +1,91 @@
+#workskin .calendar_box {
+  position: relative;
+  text-align: left;
+  display: block;
+  width: 90%;
+  background-color: #4C5459;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  max-width: 500px;
+}
+
+#workskin .button_calendar {
+  text-align: center;
+  background: #E2C6C6;
+  border: none;
+  color: #383B43;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+#workskin .button_calendar_yes {
+  text-align: center;
+  background: #E2C6C6;
+  border: none;
+  color: #383B43;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+#workskin .button_calendar_yes:hover {
+  background: #FCDDDD;
+  box-shadow: -2px 1px 5px 1px #00000010, 1px -2px 5px 1px #00000010;
+}
+
+#workskin h1 {
+  text-align: left;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #FCFBFF;
+  font-size: 32px;
+  margin: 20px;
+}
+
+#workskin h4 {
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #FCFBFF;
+  font-size: 15px;
+  margin: 4px;
+  display: inline;
+}
+
+#workskin .img_calendar {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 18%;
+  max-width: 110px;
+  overflow: visible;
+  z-index: 9;
+}
+
+#workskin .img_content_calendar {
+  width: 100%;
+  padding-bottom: 118%;
+  background-image: url("https://squidgeimages.s3.us-west-002.backblazeb2.com/2026/04/02/IMG_7141.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 5px;
+}
+
+#workskin .colortext_calendar {
+  color: #7F8489;
+}
