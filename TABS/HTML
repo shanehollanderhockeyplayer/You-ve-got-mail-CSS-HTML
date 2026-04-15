@@ -1,0 +1,34 @@
+<p>
+  <a href="#tab1" class="tab" rel="nofollow">TAB 1</a>
+  <a rel="nofollow"> </a>
+  <a href="#tab2" class="tab2" rel="nofollow">TAB 2</a>
+  <a rel="nofollow"> </a>
+  <a rel="nofollow">
+
+</a>
+
+</p>
+
+<div class="displaybox">
+
+<p>
+    <a class="tabbed" name="tab1" rel="nofollow">
+
+Here is your first tab!
+
+      Also, as a little text formatting tip, paragraphs will not work while in the display box. Which means that clicking enter will not create a new line.
+To create some breaks between your sentences, use <br> <br>
+
+      Like this! <br><br>
+      Hello!
+
+      
+</a>
+    <a class="tabbed" name="tab2" rel="nofollow">
+
+      This is your second tab! You could  continue to add more by following the same logic as the first two.
+
+
+
+</a>
+  </p></div>
