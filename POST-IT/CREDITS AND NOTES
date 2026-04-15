@@ -1,0 +1,16 @@
+Original template for the post-its are a mix of a tutorial from La_Temperanza on AO3 and a code on codepen by Jason Weden.
+La_Tempranza's AO3 profile: https://archiveofourown.org/users/La_Temperanza
+The original work tutorial: https://archiveofourown.org/works/4390949
+The other tutorial (which cannot be simply used as it is on AO3, due to the JS and some other elements not allowed on AO3): https://codepen.io/jweden/pen/kGBBpM 
+
+I am only putting the code for a single sticky note, but you can create more with different directions or colors by duplicating the code, giving the sections a slightly different name (like post-it2), and changing some CSS values:
+Post-it color is decided in: "bakground",
+Text color is "color",
+The way the post-it is rotated is in "transform: rotate",
+
+If you want to have a doodle on the post-it rather than text, the easiest way is to add a picture as your background, instead of a plain color. Just make sure the bg of your drawing is the color you want for the post-it.
+So, you would need to change "background: #ffa;" to 
+"background-image: url("INSERT YOUR PICTURE URL HERE");
+ background-size: cover;"
+
+If you want to remove the little bottom left corner thing on the post-it, just remove the whole "post-it:before" section.
