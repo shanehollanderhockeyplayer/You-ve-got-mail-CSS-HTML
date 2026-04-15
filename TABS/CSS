@@ -1,0 +1,66 @@
+#workskin .tabbed {
+  display: none;
+  padding-top: 1em;
+  top: 0;
+  position: relative;
+}
+
+#workskin .tabbed:target {
+  display: inline;
+  text-decoration: none;
+  border: none;
+  color: black;
+  width: 100%;
+  margin: 0;
+}
+
+#workskin .tab {
+  padding: 6px;
+  border: thin solid black;
+  border-radius: 3px 3px 0px 0px;
+  bottom: -.7em;
+  left: 1%;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  background: #B7CFDC;
+  color: #3E4A76;
+}
+
+#workskin .tab2 {
+  padding: 6px;
+  border: thin solid black;
+  border-radius: 3px 3px 0px 0px;
+  bottom: -.7em;
+  left: 1.5%;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+  background: #3E4A76;
+  color: #B7CFDC;
+}
+
+
+#workskin .tab:hover {
+  color: #7489A8;
+}
+
+#workskin .tab2:hover {
+  color: white;
+}
+
+
+#workskin .displaybox {
+  border: thin solid black;
+  width: 100%;
+  background: #F7F7F7;
+  height: auto;
+  padding: 1em;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#workskin .displaybox p {
+  margin: 0;
+}
