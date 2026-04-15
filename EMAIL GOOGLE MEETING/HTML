@@ -1,0 +1,19 @@
+<div class="window">
+
+<p class="topbar_dark"> </p>
+
+<p class="textfield_dark">From: johndoe@email.com</p>
+
+<p class="textfield_dark">Subject: Meeting</p>
+
+<p class="textfield_dark">To: janedoe@email.com</p></div><div class="ebody_dark"><div class="calendar_box"><div class="img_calendar"><div class="img_content_calendar"></div></div><h4>Sat, Jan 5<br />
+8:00 - 9:00 PM </h4><h1>Meeting</h1>
+
+<p><img src="https://squidgeimages.s3.us-west-002.backblazeb2.com/2026/04/02/IMG_7142.png" width="20" height="20"> Place<br />
+<img src="https://squidgeimages.s3.us-west-002.backblazeb2.com/2026/04/02/IMG_7143.png" width="20" height="20"> johndoe@gmail.com - <span class="colortext_calendar">Organizer</span><br />
+<img src="https://squidgeimages.s3.us-west-002.backblazeb2.com/2026/04/02/IMG_7145.png" width="20" height="20"> Description<br />
+<img src="https://squidgeimages.s3.us-west-002.backblazeb2.com/2026/04/02/IMG_7144.png" width="20" height="20"> On your calendar</p>
+
+<p><span class="button_calendar_yes"><b>Yes</b></span><span class="button_calendar">No</span><span class="button_calendar">Maybe</span></p></div></div>
+
+<p class="buttonbar_dark">  </p>
