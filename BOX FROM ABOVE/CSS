@@ -48,7 +48,7 @@ background: linear-gradient(to bottom, #562222 0%, #7C3939 8%, #C55757 100%);
 }
 
 #workskin .letterbox:hover .letterbox_flapbottom {
-  transform: translate(0, 99%);
+  transform: translate(0, 97.5%);
   transition: transform 2s ease;
 }
 
