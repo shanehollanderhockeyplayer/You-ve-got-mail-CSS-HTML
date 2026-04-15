@@ -1,0 +1,117 @@
+#workskin .letterbox {
+  position: relative;
+  width: 90%;
+  left: -10%;
+  max-width: 420px;
+  height: 205px;
+  margin: 80px auto 50px;
+  margin-top: 200px;
+}
+
+#workskin .letterbox_flaptop {
+  position: absolute;
+  width: 70%;
+  height: 45.5%;
+  top: -18.5%;
+  right: 0%;
+background: #C55757;
+background: -moz-linear-gradient(top, #C55757 0%, #7C3939 82%, #562222 100%);
+background: -webkit-linear-gradient(top, #C55757 0%, #7C3939 82%, #562222 100%);
+background: linear-gradient(to bottom, #C55757 0%, #7C3939 82%, #562222 100%);
+  border: 1px solid #481D1D;
+  transform-origin: bottom;
+  transition-delay: 2s;
+  transition: transform 2s ease 3.5s;
+  z-index: 6;
+}
+
+#workskin .letterbox:hover .letterbox_flaptop {
+  transform: translate(0, -99%);
+  transition: transform 2s ease;
+}
+
+#workskin .letterbox_flapbottom {
+  position: absolute;
+  width: 70%;
+  height: 45%;
+  top: 27%;
+  right: 0%;
+background: #562222;
+background: -moz-linear-gradient(top, #562222 0%, #7C3939 8%, #C55757 100%);
+background: -webkit-linear-gradient(top, #562222 0%, #7C3939 8%, #C55757 100%);
+background: linear-gradient(to bottom, #562222 0%, #7C3939 8%, #C55757 100%);
+  border: 1px solid #481D1D;
+  transform-origin: bottom;
+  transition-delay: 2s;
+  transition: transform 2s ease 3.5s;
+  z-index: 10;
+}
+
+#workskin .letterbox:hover .letterbox_flapbottom {
+  transform: translate(0, 99%);
+  transition: transform 2s ease;
+}
+
+#workskin .letterbox_flapleft {
+  position: absolute;
+  top: -18.5%;
+  left: 29.5%;
+  width: 25%;
+  height: 90%;
+  background: #582323;
+  border: 1px solid #481D1D;
+  transform-origin: top left;
+  transition: transform 2s ease 2s;
+  z-index: 5;
+}
+
+#workskin .letterbox:hover .letterbox_flapleft {
+  transform: translate(-99%, 0);
+  transition: transform 2s ease 1s;
+}
+
+#workskin .letterbox_flapright {
+  position: absolute;
+  top: -18.5%;
+  left: 74.5%;
+  width: 25%;
+  height: 90%;
+  background: #582323;
+  border: 1px solid #481D1D;
+  transform-origin: top left;
+  transition: transform 2s ease 2s;
+  z-index: 5;
+}
+
+#workskin .letterbox:hover .letterbox_flapright {
+  transform: translate(99%, 0);
+  transition: transform 2s ease 1s;
+}
+
+#workskin .letterbox_back {
+  position: absolute;
+  width: 70%;
+  height: 90%;
+  top: -18.5%;
+  right: 0%;
+  background-image: url("https://images.squidge.org/images/2026/04/14/IMG_7312.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #383C4550;
+  z-index: 5;
+}
+
+#workskin .letterbox_imginside {
+  position: absolute;
+  bottom: 55%;
+  left: 40%;
+  width: 100%;
+  max-width: 170px;
+  height: 60px;
+  z-index: 5;
+  background-image: url("https://images.squidge.org/images/2026/04/14/Capture-decran-2026-04-14-181236.png");
+  background-size: cover;
+  transform: rotate(2deg);
+  box-shadow: -1px 2px 16px 6px rgba(24,24,24,0.95);
+}
