@@ -1,0 +1,8 @@
+Just a little box viewed from above.
+
+My sections are named "letterbox", since in my fic said box is used to store letters, but you can rename those to whatever you want. Just make sure your CSS names match what you have in your HTML.
+To change the color of the box, modify all the "background:" lines in the different faces of the box (flaptop, flapbottom, flapleft, flapright)
+
+The bottom of the box I made is a graphic with my letters already on it, to make it easier for myself. 
+You would also need to adjust this yourself, by going (still in your CSS) in the "letterbox_back" section and put your own url in the "background-image:" line (or change it the a normal color, by switching the line for "background: #(HEX CODE)").
+You could make it so the background picture is a normal box bottom, and then go in the "letterbox_imginside" section, and put there what you want to show inside the box (you might need to play with the height and width).
