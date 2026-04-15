@@ -1,0 +1,95 @@
+#workskin .popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  background: rgba(0,0,0,0.3);
+  text-align: center;
+  z-index: 10;
+}
+
+#workskin .popupcontainer {
+  display: inline-block;
+  margin-top: 23%;
+  margin-bottom: 30%;
+  text-align: center;
+  background: #191A1C;
+  border: 1px solid #595B63;
+  padding: 15px;
+  width: 80%;
+  max-width: 220px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,2);
+  box-sizing: border-box;
+}
+
+#workskin .buttons {
+  margin-top: 10px;
+}
+
+#workskin .buttonyes {
+  display: inline-block !important;
+  margin: 0 5px;
+  padding: 3px 8px;
+  font-size: 0.9em;
+  border: 1px solid #999;
+  background: #323338;
+  border-radius: 2px;
+}
+
+#workskin .buttonyes:hover {
+  background: #e0e0e0;
+  color: #BF001E;
+}
+
+#workskin .buttonno {
+  display: inline-block !important;
+  margin: 0 5px;
+  padding: 4px 10px;
+  border: 1px solid #999;
+  background: #323338;
+  border-radius: 2px;
+}
+
+
+#workskin .topbar_dark_draft {
+  background-color: #401617;
+  color: #FFFFFF;
+  border-color: #401617;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 66%;
+  padding: 2px;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+#workskin .topbar_dark_draft:before {
+  content: 'Email (Draft)';
+  display: inline-block;
+  position: relative;
+  float: left;
+  font-weight: bold;
+  padding: 0 3px;
+  width: 85%;
+}
+
+#workskin .topbar_dark_draft:after {
+  content: ' _ X';
+  display: inline-block;
+  position: relative;
+  font-weight: bold;
+  padding-right: 5px;
+  float: right;
+  color: #cfcfcf;
+  -webkit-transform: scale(1.5, 1.0);
+  -moz-transform: scale(1.5, 1.0);
+  -ms-transform: scale(1.5, 1.0);
+  -o-transform: scale(1.5, 1.0);
+  transform: scale(1.5,1.0);
+  cursor: pointer;
+}
