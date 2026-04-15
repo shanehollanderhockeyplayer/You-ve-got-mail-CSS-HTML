@@ -1,0 +1,15 @@
+<div class="cardboardbox"><div class="cardboardbox_backleft"></div>
+<div class="cardboardbox_backright"></div>
+<div class="cardboardbox_img"><div class="cardboardbox_content_img"></div></div>
+<div class="cardboardbox_frontleft"></div>
+<div class="cardboardbox_frontright"></div>
+<div class="cardboardbox_topleft"></div>
+<div class="cardboardbox_topright"></div>
+<div class="cardboardbox_label"><div class="cardboardbox_label_content">
+
+<p><b>FirstName LastName</b></p>
+
+<p>123 FakeStreet<br />
+MadeUp City<br />
+Nowhere</p>
+</div></div></div>
