@@ -1,0 +1,52 @@
+If you want to add a picture inside your letter, you can add the following code into your CSS work skin.
+You will need to change the "background-image: url" line, and put there the picture you want to use.
+
+#workskin .letter_img_1 {
+  position: absolute;
+  bottom: 3%;
+  left: 2%;
+  width: 22%;
+  max-width: 130px;
+  overflow: visible;
+  z-index: 9;
+  transform: rotate(5deg);
+}
+
+#workskin .letter_img_content_1 {
+  width: 100%;
+  padding-bottom: 115%;
+  background-image: url("https://squidgeimages.s3.us-west-002.backblazeb2.com/2026/04/01/IMG_7034.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 5px;
+  box-shadow: 0 6px 15px #00000040;
+  transform: rotate(2deg);
+}
+
+#workskin .letter_img_content_1::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 25%;
+  width: 50%;
+  height: 16px;
+  background: #ffffff80;
+  box-shadow: 0 1px 3px #00000030;
+}
+
+
+
+
+To move the picture where you want on your page, change the "bottom" and "left" values in "#workskin .letter_img_1". 
+
+
+If you want to have a drawing instead, the best is just to have said drawing on a transparent background, so that it looks like it's really on the letter.
+In this case, you can get rid of the whole "#workskin .letter_img_content_1::before" section shown just above, since it is what makes the scotch tape appears above pictures.
+You should also get rid of "box-shadow: 0 6px 15px #00000040;" line in "#workskin .letter_img_content_1".
+
+
+As for your HTML for either picture or drawing, you need to add this:
+<div class="letter_img_1"><div class="letter_img_content_1"></div></div>
+
+Put it right after the </div> that comes after the end of your text inside the letter. 
