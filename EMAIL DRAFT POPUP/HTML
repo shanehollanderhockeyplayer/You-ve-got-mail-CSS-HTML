@@ -1,0 +1,18 @@
+<div class="window">
+
+<p class="topbar_dark_draft"> </p>
+
+<p class="textfield_dark">From: janedoe@gmail.com</p>
+
+<p class="textfield_dark">Subject: Draft email</p>
+
+<p class="textfield_dark">To: johndoe@gmail.com</p></div><div class="ebody_dark">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><div class="popup"><div class="popupcontainer">
+
+<p><b>Delete draft?</b><br />
+Are you sure you want to delete the draft mail?</p><div class="buttons">
+
+<p><span class="buttonyes"><b>Delete</b></span><span class="buttonno">Cancel</span></p></div></div></div></div>
+
+<p class="buttonbar_dark">  </p>
