@@ -1,0 +1,41 @@
+<div class="trifold_letter"><div class="letter_cover">
+
+<p class="letter_cover_stamp">
+    </p><div class="letter_cover_text_top">
+
+<p><b>Name Sender</b><br />
+123 Fake Street<br />
+MadeUp City<br />
+Nowhere<br />
+</p></div><div class="letter_cover_text">
+
+<p align="center"><b>FirstName LastName</b><br />
+123 Fake Street<br />
+MadeUp City<br />
+Nowhere</p></div></div><div class="letter_top"><div class="letter_top_text">
+
+<p><br />
+<br />
+</p>
+
+<p>
+Dear Person,</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</div></div>
+  
+  <div class="letter_mid"><div class="letter_mid_text">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</div></div>
+  
+  <div class="letter_bot"><div class="letter_bot_text">
+
+<p><br />
+</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p align="right">Take care,<br />
+Name Sender</p></div></div></div>
