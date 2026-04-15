@@ -1,0 +1,192 @@
+#workskin .trifold_letter {
+  position: relative;
+  margin: 0 auto;
+  font-size: 100%;
+  font-family: "Gill Sans", sans-serif;
+  width: 600px;
+  height: 240px;
+  max-width: 80%;
+  min-width: 50%;
+  transition: 2s;
+  transition-delay: 2s;
+  margin-bottom: 90px;
+}
+
+#workskin .trifold_letter:hover {
+  height: 600px;
+  transition: 1s;
+}
+
+#workskin .letter_cover {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  color: #272A30;
+  background: #E8E8E5;
+  box-shadow: -2px 1px 5px 1px #00000010, 1px -2px 5px 1px #00000010;
+  border: solid #383C4550 1px;
+  width: 110%;
+  min-height: 240px;
+  max-height: 240px;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 8;
+}
+
+#workskin .letter_cover:hover {
+  cursor: wait;
+}
+
+#workskin .trifold_letter:hover .letter_cover {
+  top: -100px;
+  left: 0px;
+  background: #E8E8E5;
+  transform: rotate(5deg);
+  transition: 1s;
+  z-index: 0;
+}
+
+#workskin .letter_cover_text {
+  position: relative;
+  margin: 0 auto;
+  top: 60px;
+  max-width: 70%;
+  min-width: 50%;
+  font-size: 1.1em;
+  overflow: visible;
+}
+
+#workskin .letter_cover_text_top {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  max-width: 60%;
+  min-width: 30%;
+  font-size: 0.70em;
+  overflow: visible;
+}
+
+#workskin .letter_top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #383C45;
+  background: #F5F5F2;
+  height: 200px;
+  max-width: 100%;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-top: solid #383C4550 1px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 7;
+}
+
+#workskin .letter_top_text {
+  position: relative;
+  margin: 0 auto;
+  top: -30px;
+  height: 170px;
+  max-width: 90%;
+  font-size: 0.80em;
+}
+
+#workskin .trifold_letter:hover .letter_top {
+  left: -20px;
+  transform: skew(5deg);
+  transition: 2s;
+}
+
+#workskin .letter_mid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #383C45;
+  background: #F5F5F2;
+  height: 200px;
+  max-width: 100%;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 6;
+}
+
+#workskin .letter_mid_text {
+  position: relative;
+  margin: 0 auto;
+  top: -10px;
+  max-width: 90%;
+  height: 210px;
+  font-size: 0.80em;
+}
+
+#workskin .trifold_letter:hover .letter_mid {
+  top: 200px;
+  left: -20px;
+  transform: skew(-5deg);
+  transition: 2s;
+}
+
+#workskin .letter_bot {
+  position: absolute;
+  top: 0px;
+  left: .1px;
+  color: #383C45;
+  background: #F5F5F2;
+  height: 200px;
+  max-width: 100%;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-left: solid #383C4550 1px;
+  border-right: solid #383C4550 1px;
+  border-bottom: solid #383C4550 1px;
+  box-shadow: -5px -3px 10px 1px #00000010;
+  transition: 2s;
+  transition-delay: 2s;
+  z-index: 5;
+}
+
+#workskin .letter_bot_text {
+  position: relative;
+  top: -20px;
+  margin: 0 auto;
+  max-width: 90%;
+  height: 160px;
+  font-size: 0.80em;
+}
+
+#workskin .trifold_letter:hover .letter_bot {
+  top: 400px;
+  left: -20px;
+  transition: 2s;
+  transform: skew(5deg);
+}
+
+#workskin .letter_cover_stamp {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+  width: 22%;
+  max-width: 120px;
+  overflow: visible;
+  z-index: 3;
+}
+
+#workskin .letter_cover_stamp::before {
+  content: "";
+  display: block;
+  padding-bottom: 80%;
+}
+
+#workskin .letter_cover_stamp {
+  background-image: url("https://squidgeimages.s3.us-west-002.backblazeb2.com/2026/04/01/IMG_7054.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 3px;
+}
