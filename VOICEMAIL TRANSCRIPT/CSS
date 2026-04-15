@@ -1,0 +1,76 @@
+#workskin .calltranscript {
+  width: 95%;
+  max-width: 800px;
+  margin: auto;
+  padding: 0 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+}
+
+#workskin .calltranscript_box {
+  background-color: #F7F7F7;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#workskin .calltranscript_title {
+  font-weight: bold;
+  font-family: sans-serif;
+  color: black;
+  font-size: 1.6em;
+  margin-bottom: -4%;
+}
+
+#workskin .calltranscript_title_sub {
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #6F6F6F;
+  font-size: 1em;
+  margin: 0;
+  line-height: 1.4;
+}
+
+#workskin .msgtranscription_title {
+  font-weight: bold;
+  color: #6F6F6F;
+  font-size: 1.1em;
+  margin-bottom: -1%;
+}
+
+#workskin summary {
+  font-size: 2em;
+  color: #4474BA;
+  margin-top: -10%;
+}
+
+#workskin .voicemail_buttonsrow {
+  display: flex;
+  align-items: left;
+  margin-top: -6%;
+  margin-left: 82%;
+}
+
+#workskin .voicemail_buttons {
+  width: 110px;
+  display: block;
+  margin-left: 0%;
+}
+
+#workskin .voicemail_bar {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+#workskin .voicemail_message {
+  color: #6F6F6F;
+  margin: 0;
+  font-size: normal;
+}
+
+#workskin .voicemailbutton_top {
+  font-family: sans-serif;
+  color: #4474BA;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
