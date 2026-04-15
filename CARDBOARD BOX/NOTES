@@ -1,0 +1,5 @@
+This box is made to look like cardboard, hence the title, but you could technically take the time to change the visuals.
+
+You would need to, in the CSS, go to the different "background-image:" or "background" lines that appear in the different faces of the box (frontleft, frontright, backleft, backright, topleft, topright) and changes these, either to different pictures for another texture; or if you want a normal color, switch them to "background: #(hex color code of your choice)"
+
+To change the object that pops out of the box, you need, similarly, to change the "background-image:" line in the "#workskin .cardboardbox_content_img" section.
