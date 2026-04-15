@@ -1,0 +1,5 @@
+For this code, you will need to make your own visual for the Google Translate interface, since it is only a picture.
+For this, you only need to go in your CSS and change the url that shows up in "background-image", in the "highlight::after" section.
+
+You might also need to move where the pop-up appears, depending on where is your text on the page.
+For this, just play with the "left" and "bottom" values in "highlight::after".
