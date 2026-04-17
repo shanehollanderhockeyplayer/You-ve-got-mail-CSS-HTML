@@ -13,4 +13,4 @@ So, you would need to change "background: #ffa;" to
 "background-image: url("INSERT YOUR PICTURE URL HERE");
  background-size: cover;"
 
-If you want to remove the little bottom left corner thing on the post-it, just remove the whole "post-it:before" section.
+If you want to remove the little bottom left corner thing on the post-it, just remove the whole "post-it:before" section and the "border-radius: 0 0 0 40px;" line.
