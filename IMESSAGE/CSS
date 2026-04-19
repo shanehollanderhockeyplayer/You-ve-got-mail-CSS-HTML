@@ -1,0 +1,232 @@
+#workskin .phoneios {
+  max-width: 330px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: table;
+  margin: auto;
+}
+
+#workskin .headerios {
+  width: 100%;
+  height: 70px;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #b2b2b2;
+  color: #000000;
+  font-weight: bold;
+  padding-top: .5em;
+  margin-right: -.5em;
+  margin-bottom: -2em;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#workskin .footerios {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  color: #000000;
+  font-weight: bold;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  margin-right: -.5em;
+  margin-bottom: -.2em;
+  bottom: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+#workskin .messagebodyios {
+  background-color: white;
+  display: block;
+  padding-left: .5em;
+  padding-right: .5em;
+  height: 500px;
+  overflow: auto;
+  z-index: 1;
+  padding-bottom: 30px;
+}
+
+#workskin .iosreceived {
+  float: left;
+  color: #000000;
+  margin: 0 0 0.5em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background: #e5e5ea;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .iosreceived::after {
+  content: "";
+  position: absolute;
+  left: -.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+  border-right: 0.5em solid #e5e5ea;
+  border-bottom-right-radius: 1em 0.5em;
+}
+
+#workskin .iosreceived2 {
+  float: left;
+  color: #000000;
+  margin: 0 0 0.5em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background: #e5e5ea;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .iosreceived_emoji {
+  float: left;
+  color: #000000;
+  margin: 0 0 0.5em;
+  border-radius: 1em;
+  padding: 0.5em .5em;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+  font-size: 40px;
+}
+
+
+
+#workskin .iossent {
+  float: right;
+  color: #FFFFFF;
+  margin: 0 0 0.5em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background: #1289fe;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .iossent::after {
+  content: "";
+  position: absolute;
+  right: -0.5em;
+  bottom: 0;
+  width: 0.5em;
+  height: 1em;
+  border-left: 0.5em solid #1289fe;
+  border-bottom-left-radius: 1em 0.5em;
+}
+
+#workskin .iossent2 {
+  float: right;
+  color: #FFFFFF;
+  margin: 0 0 0.2em;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  background: #1289fe;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+#workskin .hide {
+  display: none;
+}
+
+#workskin .timeios {
+  min-width: 295px;
+  color: #7B7C80;
+  font-size: .75em;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  margin-left: -.5em;
+  margin-right: -.5em;
+  margin-bottom: -.5em;
+  text-align: center;
+  display: table;
+}
+
+#workskin .typingbarios .button1ios {
+  width: 25px;
+  vertical-align: top;
+  margin-top: -19.5px;
+  margin-left: 110px;
+  position: absolute;
+}
+
+#workskin .typingbarios .button2ios {
+  width: 30px;
+  vertical-align: top;
+  margin-top: -21px;
+  margin-left: -146px;
+  position: absolute;
+}
+
+#workskin .typingbarios .textbarios {
+  display: inline-block;
+  color: #999;
+  position: absolute;
+  margin-top: -22px;
+  margin-left: -110px;
+  font-size: .95em;
+  border: 1px solid #999;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 180px;
+  border-radius: 50px;
+}
+
+#workskin .headerios .button1ios {
+  width: 35px;
+  vertical-align: top;
+  margin-top: -2%;
+  margin-left: 32%;
+  position: absolute;
+}
+
+#workskin .headerios .button2ios {
+  width: 25px;
+  vertical-align: top;
+  margin-top: 0%;
+  margin-left: -47%;
+  position: absolute;
+}
+
+#workskin .headerios .icon {
+  width: 40px;
+  margin-top: -5%;
+  margin-left: -6%;
+  position: absolute;
+}
+
+#workskin .headerios .textcontact {
+  font-size: 12px;
+  width: 90px;
+  margin-top: 9%;
+  margin-left: -13%;
+  position: absolute;
+}
+
+#workskin .messagebodyios::-webkit-scrollbar {
+  width: 10px;
+}
+
+#workskin .messagebodyios::-webkit-scrollbar-track {
+  background: none;
+}
+
+#workskin .messagebodyios::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+#workskin .messagebodyios::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.7);
+  border-radius: 10px;
+}
+
+#workskin .colortextios {
+  color: #999;
+}
