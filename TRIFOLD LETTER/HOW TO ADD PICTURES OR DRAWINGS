@@ -7,6 +7,7 @@ You will need to change the "background-image: url" line, and put there the pict
   left: 2%;
   width: 22%;
   max-width: 130px;
+  transform: rotate(8deg);
   overflow: visible;
   z-index: 9;
 }
@@ -20,7 +21,6 @@ You will need to change the "background-image: url" line, and put there the pict
   background-repeat: no-repeat;
   padding-top: 5px;
   box-shadow: 0 6px 15px #00000040;
-  transform: rotate(8deg);
 }
 
 #workskin .letter_img_content_1::before {
