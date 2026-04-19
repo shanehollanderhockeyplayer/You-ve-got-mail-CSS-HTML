@@ -175,18 +175,15 @@
   max-width: 120px;
   overflow: visible;
   z-index: 3;
+  background-image: url("https://squidgeimages.s3.us-west-002.backblazeb2.com/2026/04/01/IMG_7054.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 
 #workskin .letter_cover_stamp::before {
   content: "";
   display: block;
   padding-bottom: 80%;
-}
-
-#workskin .letter_cover_stamp {
-  background-image: url("https://squidgeimages.s3.us-west-002.backblazeb2.com/2026/04/01/IMG_7054.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 3px;
 }
