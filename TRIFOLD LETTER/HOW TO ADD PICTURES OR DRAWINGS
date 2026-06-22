@@ -21,7 +21,7 @@ You will need to change the "background-image: url" line, and put there the pict
   padding-top: 5px;
 }
 
-#workskin .letter_img_content_shane1::before {
+#workskin .letter_img_content_1::before {
   content: "";
   position: absolute;
   top: -8px;
