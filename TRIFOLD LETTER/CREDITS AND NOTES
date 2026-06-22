@@ -4,3 +4,6 @@ The original work tutorial: https://archiveofourown.org/works/25174384/chapters/
 
 I am only sharing my version of it, with some small adjustments made to fit the need of my fic. 
 You can customize your own by changing some CSS lines like "background" for the bg color of the different parts of the letter, "color" for the color of the text, "font-family" for the font used, and so on.
+
+EDIT JUNE 2026: I reworked both the CSS and HTML to make it easier to add multiple letters with different visuals for the stamp. 
+Now you can use the same codes for different ones, you just have to change the links for the pictures in the HTML code, in "img class="letter_cover_stamp"" 
