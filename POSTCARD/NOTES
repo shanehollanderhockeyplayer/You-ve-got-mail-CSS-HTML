@@ -1,8 +1,5 @@
-To change the visual of the postcard, in your CSS:
-Go to the "#workskin .postcard_front" section, and change the url in the "background-image:" line to the picture of your choice.
-
-To change the visual of the stamp, in your CSS:
-Go to the "#workskin .postcard_stamp_content" section, and change the url in the "background-image:" line to the picture of your choice.
+EDIT JUNE 2026: I reworked both the CSS and HTML to make it easier to add multiple postcards with different visuals for the front of the card and the stamp. 
+Now you can use the same codes for different postcards, you just have to change the links for the pictures in the HTML code, in "img class="postcard_front"" and ""img class="postcard_stamp""
 
 You could also make it look like characters have drawn something inside the card. For that, you need to have your drawing ready (with the background color of your card, and easier if the size already matches the one of the postcard) and, in your CSS:
 Go to the "#workskin .postcard_back" section, and change the "background: #F5F5F2;" to "background-image: url("INSERT YOUR PICTURE URL HERE");"
